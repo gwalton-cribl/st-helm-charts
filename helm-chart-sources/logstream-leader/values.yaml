@@ -9,7 +9,7 @@ criblImage:
   repository: cribl/cribl
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: 4.6.0
+  tag: prod-nightly
 
 imagePullSecrets: []
 nameOverride: "leader"
